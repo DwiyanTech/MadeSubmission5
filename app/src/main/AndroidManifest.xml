@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dwiyan.tvandmoviecatalogue">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission android:name="com.dwiyan.tvandmoviecatalogue.Provider.READ_WRITE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".StackWidget.FavouriteWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favourite_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".SearchTV.SearchTVActivity"
+            android:label="@string/title_activity_search_tv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchMovie.ActivityMovieSearch"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchActivity.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FavouriteFragment.FavouriteActivity"
+            android:label="@string/title_activity_favourite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovieCatalog.DetailMovie" />
+        <activity android:name=".TvCatalogue.DetailTV" />
+
+        <receiver
+            android:name=".Notification.AlarmDailyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".SearchActivity.ActivitySearch" />
+
+        <provider
+            android:name=".Provider.ProviderMovie"
+            android:authorities="com.dwiyan.tvandmoviecatalogue.Provider"
+            android:exported="true"
+            android:multiprocess="true"
+            android:permission="com.dwiyan.tvandmoviecatalogue.Provider.READ_WRITE" />
+        <service
+            android:name="com.dwiyan.tvandmoviecatalogue.StackWidget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TV And Movie Catalogue</string>
+    <string name="tab_text_1">Movie Catalogue</string>
+    <string name="tab_text_2">TV Catalogue</string>
+    <string name="movie_title">Judul Movie</string>
+    <string name="release_date">Jumat 23 Februari</string>
+    <string name="movie_overview">fjwafwafkeagjkeagoieagn</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="title_date_of_release">Date Of Release</string>
+    <string name="overview_title">Overview</string>
+    <string name="title_rating">Rating</string>
+    <string name="change_languange_setting"> Setting</string>
+    <string name="cari_item">Search</string>
+    <string name="media_type">Type :</string>
+    <string name="error_koneksi">Error Connection !!!</string>
+    <string name="birdbox">BirdBox</string>
+    <string name="textview">Show Text View</string>
+    <string name="todo">Todo</string>
+    <string name="unfavourite">Remove From Favourite</string>
+    <string name="title_activity_favourite">TV AND MOVIE FAVOURITE</string>
+    <string name="koneksi">Error Connection</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="search_tv">Search TV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="judul_movieDaily">Check Out The Movies Now !</string>
+    <string name="desc_movieDaily">Check Now !</string>
+    <string name="lang">Languange Setting</string>
+    <string name="lang_title">Languange</string>
+    <string name="notification_title">Reminder Notifications</string>
+    <string name="set_dailyRemainder">Daily Reminder [ 07:00 AM ]</string>
+    <string name="set_releaseReminder">Release Reminder</string>
+    <string name="message_daily_reminder">Long time No See ! Watch it More !!</string>
+    <string name="message_release_reminder">Ada Yang Baru Nih !!!! Cek Sekrang Juga Yuk </string>
+    <string name="message_error_alarm_connection"> Cant Run Check Your Connection !!! </string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search_tv">SearchTVActivity</string>
+    <string name="appwidget_text">Favourite List</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_empty">No Favourite Found </string>
+
+</resources>

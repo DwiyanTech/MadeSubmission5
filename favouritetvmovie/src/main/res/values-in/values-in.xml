@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Favorit Movie dan Tv</string>
+    <string name="tab_text_1">Katalog Movie</string>
+    <string name="tab_text_2">Katalog TV</string>
+    <string name="movie_title">Judul Movie</string>
+    <string name="release_date">Jumat 23 Februari</string>
+    <string name="movie_overview">fjwafwafkeagjkeagoieagn</string>
+    <string name="favorite">Suka</string>
+    <string name="share">Sebarkan</string>
+    <string name="title_date_of_release">Tanggal Release</string>
+    <string name="overview_title">Penjelasan</string>
+    <string name="title_rating">Rata - Rata Suka</string>
+    <string name="change_languange_setting">Pengaturan </string>
+    <string name="cari_item">Cari</string>
+    <string name="media_type">Jenis :</string>
+    <string name="error_koneksi">Koneksi Terputus !!!</string>
+    <string name="birdbox">BirdBox</string>
+    <string name="textview">Show Text View</string>
+    <string name="todo">Todo</string>
+    <string name="koneksi">Koneksi Terputus</string>
+    <string name="unfavourite">Hapus Dari Favourite </string>
+    <string name="title_activity_favourite">Favorit Movie Dan TV</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="search_tv">Search TV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="judul_movieDaily">Cek Movie terbaru Sekarang</string>
+    <string name="desc_movieDaily">Check Sekarang !!!</string>
+    <string name="lang">Pemgaturan Bahasa</string>
+    <string name="lang_title">Bahasa</string>
+    <string name="notification_title">Pengaturan Pengingat</string>
+    <string name="set_dailyRemainder">Ingatkan Setiap Jam 7pagi</string>
+    <string name="set_releaseReminder">Ingatkan Jika Ada Yang Baru</string>
+    <string name="message_daily_reminder">Lama Tak Jumpa , Mampir Lah</string>
+    <string name="message_release_reminder">Ada Yang Baru Nih !!!! Cek Sekarang Juga Yuk </string>
+    <string name="message_error_alarm_connection"> Tidak dapat dijalankan , Cek Koneksimu Kembali </string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>
